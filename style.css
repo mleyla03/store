@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Satisfy&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #aa3449;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #aa3449, #b02c57, #b42567, #b52179, #b1248d, #b1248d, #b1248d, #b1248d, #b52179, #b42567, #b02c57, #aa3449);
+    top: 0;
+    width: 100%;
+    position: fixed;
+    font-size: 30px;
+   
+}
+header a{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.logo{
+    margin-left: 50px;
+}
+.nav{
+    margin-right: 50px;
+}
+.nav a{
+margin-right: 30px;
+}
+.container{
+    display: flex;
+    margin-top: 100px;
+   width: 100%;
+   
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.image{
+    width: 250px;
+    height: 300px;
+}
+.image img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top-center;
+}
+.name{
+   font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    
+}
+.price{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn button{
+         width: 100px;
+    height: 30px;
+    margin-left: 50px;
+    background-color: tomato;
+    color: #fff;
+}
+.btn {
+    width: 100px;
+height: 30px;
+margin-left: 20px;
+
+
+}
+.btn i{
+    margin-left: 5px;
+}
+.productItem{
+   border-right: 0.5px solid gray;
+   border-bottom: 0.5px solid gray;
+   margin-left: 50px;
+   margin-bottom: 20px;
+}
+
+.cartdisp img{
+width: 70px;
+}
+.cartdisp{
+    margin-left: 100px;
+    align-items: center;
+    text-align: center;
+    }
+
+.displayItem{
+   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 100px ;
+    font-size: 12px;
+
+}
+.item{
+    width: 100px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: coral;
+    
+font-family: 'Lobster', cursive;
+}
+.names{
+    width: 300px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: coral;
+    
+    font-family: 'Lobster', cursive;
+}
+.prices{
+    width: 100px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: coral;
+    
+    font-family: 'Lobster', cursive;
+}
+.quantity{
+    width: 130px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: coral;
+    font-family: 'Satisfy', cursive;
+}
+.total{
+    width: 100px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: coral;
+    
+    font-family: 'Lobster', cursive;
+
+}
+.delete{
+    width: 100px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: coral;
+    
+    font-family: 'Lobster', cursive;
+}
+
+.cartlist{
+    display: flex;
+    text-transform: capitalize;
+}
+
+.forImage{
+    width: 100px;
+  
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.forName{
+    width: 300px;
+  
+    margin: 10px;    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Satisfy', cursive;
+
+    
+}
+.forPrice{
+    width: 100px;
+   
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Satisfy', cursive;
+}
+.forQuantity{
+    width: 130px;
+   
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Satisfy', cursive;
+    
+}
+.forQuantity input{
+    width: 50px;
+   
+    margin: 10px;
+    
+}
+.increse{
+    width: 100px;
+   
+   
+    
+}
+.forTotal{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+ 
+    font-family: 'Satisfy', cursive;
+    
+    
+}
+.reoveItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.reoveItem button{
+    cursor: pointer;
+    background-color: red;
+    width: 70px;
+    height: 20px;
+    color: #fff; 
+    margin-left: 30px;
+   
+    
+}
+
+.totalPriceCart{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 400px;
+    background-color: rgb(221, 143, 25);
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Satisfy', cursive;
+}
+.subtotal{
+    margin: 10px;
+}
+.priceView{
+    margin: 10px;
+   
+}
